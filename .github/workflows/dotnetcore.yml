@@ -25,3 +25,4 @@ jobs:
     - name: Test
       run: dotnet test --configuration Release --no-build --verbosity normal
     # Not safe to test Debug build as it runs tests in parallel, occasional triggering a bug in the test adapter.
+
